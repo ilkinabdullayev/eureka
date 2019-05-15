@@ -13,7 +13,7 @@ final class PropertyBasedClientConfigConstants {
 
     static final String REGISTRATION_ENABLED_KEY = "registration.enabled";
     static final String FETCH_REGISTRY_ENABLED_KEY = "shouldFetchRegistry";
-
+//
     static final String REGISTRY_REFRESH_INTERVAL_KEY = "client.refresh.interval";
     static final String REGISTRATION_REPLICATION_INTERVAL_KEY = "appinfo.replicate.interval";
     static final String INITIAL_REGISTRATION_REPLICATION_DELAY_KEY = "appinfo.initial.replicate.time";
@@ -64,7 +64,7 @@ final class PropertyBasedClientConfigConstants {
 
     static final String CONFIG_DOLLAR_REPLACEMENT_KEY = "dollarReplacement";
     static final String CONFIG_ESCAPE_CHAR_REPLACEMENT_KEY = "escapeCharReplacement";
-
+//
 
     // additional namespaces
     static final String CONFIG_EXPERIMENTAL_PREFIX = "experimental";
