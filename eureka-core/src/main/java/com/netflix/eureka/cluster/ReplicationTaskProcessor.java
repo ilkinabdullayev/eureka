@@ -36,7 +36,7 @@ class ReplicationTaskProcessor implements TaskProcessor<ReplicationTask> {
     ReplicationTaskProcessor(String peerId, HttpReplicationClient replicationClient) {
         this.replicationClient = replicationClient;
         this.peerId = peerId;
-    }
+    }//
 
     @Override
     public ProcessingResult process(ReplicationTask task) {

@@ -22,6 +22,7 @@ public class DiscoveryClientCloseJerseyThreadTest extends AbstractDiscoveryClien
     private boolean containsJerseyThread() {
         Set<Thread> threads = Thread.getAllStackTraces().keySet();
         for (Thread t : threads) {
+            System.out.println("zzzz"+t.getName());
             if (t.getName().contains(THREAD_NAME)) {
                 return true;
             }
